@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var year = parseInt(prompt("Enter a year"));
+
+        var isleapyear = false;
+
+        var isleayearby4 = year % 4 == 0;
+        if (isleayearby4) {
+            var isleayearby100 = year % 100 == 0;
+            if (isleayearby100) {
+                var isleayearby400 = year % 400 == 0;
+                if (isleayearby400) {
+                    isleapyear = true;
+                }
+            }else {
+                    isleapyear = true;
+                }
+            }
+            if (isleapyear) {
+                alert(year + "day la nam nhuan");
+            } else {
+                alert(year + "ko phai nam nhuan");
+            }
+    </script>
+</body>
+</html>
