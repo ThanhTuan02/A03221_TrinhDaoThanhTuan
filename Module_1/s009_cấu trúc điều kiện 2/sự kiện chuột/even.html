@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <img src="https://cdnb.artstation.com/p/assets/images/images/010/692/637/large/steve-jung-avengers-charactersfaceoff-low.jpg?1525738941" id="Image" style="width: 700px" >
+        <p>Click button below to move the image to the right</p>
+        <input type="button" value="click me" onclick="moveleft()">
+    </form>
+    <script>
+    let imObj = null;
+    imObj = document.getElementById('Image');
+    function start () {
+        imObj = document.getElementById('Image');
+        imObj.style.position = 'relative';
+        imObj.style.left = '100px';
+    }
+    function moveleft (){
+     imObj.style.left = parseInt(imObj.style.left) + 10 + 'px';
+    }
+    window.onload=start;
+    </script>
+</body>
+</html>
