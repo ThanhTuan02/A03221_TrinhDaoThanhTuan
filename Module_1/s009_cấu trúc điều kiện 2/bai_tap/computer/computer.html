@@ -12,41 +12,43 @@
             text-align: revert;
         }
         table {
-            border-collapse: collapse;
+
         }
     </style>
 </head>
 <body>
-    <form>
+
         <table border="1">
             <tr>
-                <th colspan="4"><input type="text" id="a"></th>
+                <td colspan="4">
+                    <p id="a" ></p>
+                </td>
             </tr>
             <tr>
-                <td><button type="button" onclick="1">1</button></td>
-                <td><button type="button" onclick="2">2</button></td>
-                <td><button type="button" onclick="3">3</button></td>
-                <td><button type="button" onclick="Addition">+</button></td>
+                <td><button type="button" onclick="calBasic('1')">1</button></td>
+                <td><button type="button" onclick="calBasic('2')">2</button></td>
+                <td><button type="button" onclick="calBasic('3')">3</button></td>
+                <td><button type="button" onclick="calBasic('+')">+</button></td>
             </tr>
             <tr>
-                <td><button type="button">4</button></td>
-                <td><button type="button">5</button></td>
-                <td><button type="button">6</button></td>
-                <td><button type="button">-</button></td>
+                <td><button type="button" onclick="calBasic('4')">4</button></td>
+                <td><button type="button" onclick="calBasic('5')">5</button></td>
+                <td><button type="button" onclick="calBasic('6')">6</button></td>
+                <td><button type="button" onclick="calBasic('-')">-</button></td>
             </tr>
             <tr>
-                <td><button type="button">7</button></td>
-                <td><button type="button">8</button></td>
-                <td><button type="button">9</button></td>
-                <td><button type="button">X</button></td>
+                <td><button type="button" onclick="calBasic('7')">7</button></td>
+                <td><button type="button" onclick="calBasic('8')">8</button></td>
+                <td><button type="button" onclick="calBasic('9')">9</button></td>
+                <td><button type="button" onclick="calBasic('*')">X</button></td>
             </tr>
             <tr>
-                <td><button type="button">C</button></td>
-                <td><button type="button">0</button></td>
-                <td><button type="button">=</button></td>
-                <td><button type="button">/</button></td>
+                <td><button type="button" onclick="calBasic('C')">C</button></td>
+                <td><button type="button" onclick="calBasic('0')">0</button></td>
+                <td><button type="button" onclick="calBasic('=')">=</button></td>
+                <td><button type="button" onclick="calBasic('/')">/</button></td>
             </tr>
         </table>
-    </form>
+<script src="computer.js"></script>
 </body>
 </html>
