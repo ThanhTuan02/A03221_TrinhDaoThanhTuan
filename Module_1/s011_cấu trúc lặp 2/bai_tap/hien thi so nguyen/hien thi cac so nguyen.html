@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var numbers = parseInt(prompt(''));
+        var count = 0;
+        var N = 2;
+        while (count < numbers) {
+            var a = true
+           for (i = 2; i <= Math.sqrt(N); i++) {
+               if (N % i === 0)
+                   a = false;
+               break;
+           }
+           if (a) {
+               count++;
+               document.write(N + '<br>')
+           }
+           N++
+        }
+    </script>
+</body>
+</html>
