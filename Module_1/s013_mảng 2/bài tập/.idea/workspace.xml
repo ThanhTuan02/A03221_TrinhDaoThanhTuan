@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90f6ac99-7ff2-4559-992e-289ab0a22686" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../s010_ cấu trúc lặp 1/bai_tap/luyentapvonglap_1/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s010_ cấu trúc lặp 1/bai_tap/luyentapvonglap_1/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s010_ cấu trúc lặp 1/bai_tap/luyentapvonglap_1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s010_ cấu trúc lặp 1/bai_tap/luyentapvonglap_1/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s012_Mảng 1/Thực hành/dao_nguoc_cac_phan_tu/dao_nguoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s012_Mảng 1/Thực hành/tao_va_thao_tac_voi_mang/array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s012_Mảng 1/Thực hành/tim_gia_tri_max/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s012_Mảng 1/Thực hành/tim_gia_trong_array/value_in_array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s007_biến kiểu dữ  liệu và toán tử/Bài tập/Ứng dụng máy tính/computer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../s007_biến kiểu dữ  liệu và toán tử/Bài tập/Ứng dụng máy tính/computer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s008_cấu trúc điều kiện 1/Thực hành/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s008_cấu trúc điều kiện 1/Thực hành/.idea/Thực hành.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s008_cấu trúc điều kiện 1/Thực hành/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s008_cấu trúc điều kiện 1/Thực hành/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s008_cấu trúc điều kiện 1/Thực hành/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s008_cấu trúc điều kiện 1/Thực hành/cau_truc if/else.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s008_cấu trúc điều kiện 1/Thực hành/namnhuan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s008_cấu trúc điều kiện 1/thuchanh/luyentap if_else/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="28vP4zV6vLgRusOkrk4WQuinGur" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90f6ac99-7ff2-4559-992e-289ab0a22686" name="Changes" comment="" />
+      <created>1652093900519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652093900519</updated>
+      <workItem from="1652093902013" duration="112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
