@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <input type="text" id="inputEnglish">
+    <input type="submit" value="Dịch" onclick="dich()">
+    <script>
+        let english = ["hello","thank","bye"];
+        let vietnam = ["xin chào","cảm ơn","tạm biệt"];
+        function dich() {
+            let input = document.getElementById('inputEnglish').value;
+            if (english.indexOf(input) > -1) {
+                alert(input + ' là ' + vietnam[english.indexOf(input)]);
+            } else {
+                alert('Không tìm thấy')
+            }
+        }
+
+    </script>
 </body>
 </html>
