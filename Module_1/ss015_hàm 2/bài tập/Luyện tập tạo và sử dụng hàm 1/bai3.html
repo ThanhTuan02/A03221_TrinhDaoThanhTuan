@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    number 1: <input type = "number" id="number1"/><br>
+    number 2: <input type = "number" id="number2"/>
+    <input type="submit" onclick="submitFunction()" value="Enter"/>
+    <script>
+        function giatri(a,b) {
+            if(a,b) {
+                return'số đầu lớn hơn số thứ hai'
+            } else {
+                return a+b;
+            }
+        }
+        function submitfunction() {
+            let input1 = parseInt(document.getElementById('number1').value);
+            let input2 = parseInt(document.getElementById('number2').value);
+            alert(giatri(input1,input2));
+        }
+    </script>
+</body>
+</html>
