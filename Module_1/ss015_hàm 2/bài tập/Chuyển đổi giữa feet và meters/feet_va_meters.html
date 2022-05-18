@@ -5,15 +5,18 @@
     <title>Title</title>
 </head>
 <body>
+    <input type="number" oninput="meterToFoot(this.value)" onchange="meterToFoot(this.value)">
+    <input type="number" oninput="footToMeter(this.value)" onchange="footToMeter(this.value)">
+    <p id="aaaa">foot =></p><br>
+    <p id="b">meter =></p>
     <script>
         function footToMeter(foot){
-            return 0.305 * foot;
+           document.getElementById('b').innerHTML = 0.305 * foot;
         }
         function meterToFoot(meter) {
-            return 3.279 * meter;
+            document.getElementById('aaaa').innerHTML = 3.279 * meter;
         }
-        alert(footToMeter(1));
-        alert(meterToFoot(60));
+
     </script>
 </body>
 </html>
